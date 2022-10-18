@@ -1,0 +1,140 @@
+"C:\Users\Baskey\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.4.101-hotspot\bin\java.exe" -ea -Didea.test.cyclic.buffer.size=1048576 "-javaagent:C:\Users\Baskey\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\lib\idea_rt.jar=51275:C:\Users\Baskey\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\Baskey\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\lib\idea_rt.jar;C:\Users\Baskey\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2022.2.2\plugins\testng\lib\testng-rt.jar;D:\Javas\REST\target\classes;C:\Users\Baskey\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\Baskey\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Baskey\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Baskey\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Baskey\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Baskey\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Baskey\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Baskey\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Baskey\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Baskey\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Baskey\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\Baskey\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Baskey\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\Baskey\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\Baskey\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Baskey\.m2\repository\org\json\json\20220924\json-20220924.jar;C:\Users\Baskey\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\Baskey\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Baskey\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Baskey\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Baskey\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar" com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket51274 @w@C:\Users\Baskey\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\Baskey\AppData\Local\Temp\idea_testng.tmp
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Delete Call
+HTTP/1.1 204 No Content
+Date: Tue, 18 Oct 2022 02:57:52 GMT
+Content-Length: 0
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=pTtlRUzoL8UbYQFO94OHFtGx%2FzN%2B%2F6FqlH9XT8n99v%2FnryNLGWChWbWjRjdFkJqju5gojXdQSjWkUaRh7HS97cjt6O5VeX7Uh6s2A7vKj833GzZYvU62VuK4RA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 75be024f981093c2-CCU
+Get call
+HTTP/1.1 200 OK
+Date: Tue, 18 Oct 2022 02:57:53 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 6181
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8AtXZRkmMRH1%2BckCOEHgeRG7ZrDoLNGWJOv1dLfo5Y7LCArXslR6rHcGvYzOzDgdV6d9HsAAp96fsqHbiBE9ySDwByFOlr9w5eQYOppfQ%2FvptXzenGOPWgZvGQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 75be0254ae5693cb-CCU
+Content-Encoding: gzip
+
+{
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+Post call
+HTTP/1.1 201 Created
+Date: Tue, 18 Oct 2022 02:57:54 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 51
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"33-xuTs3sb5bRNiL3t63ahxoQfUj+U"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=04vO0hJo0Qg1YJppQMGm60Pn8%2FysRSxw7eML5u0uSuLJwe0HsZYjFi5NgXciYDNv3fXi07%2BYxStYJeV3%2BAbkCtopRlHue9uAC4AYULCr1cV%2F8IIEMmdlueTnKA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 75be0257088393c7-CCU
+
+{
+    "id": "988",
+    "createdAt": "2022-10-18T02:57:54.024Z"
+}
+Put call
+HTTP/1.1 200 OK
+Date: Tue, 18 Oct 2022 02:57:54 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 40
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"28-1k39DFjlSYNFHUS+hN5rHKudHlM"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=cANQvK80VW4I%2FWNUKszMmzwbObB5ZrlIY50G3MBz53VmlfqW%2BdieYhUZv27HgSm39StgTq%2F1qCR%2FElUSFyqSH8BxhgK1KGa%2BF0fOAlLqq9m4wLE%2BByQ3EFxULQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 75be025c086594b2-CCU
+
+{
+    "updatedAt": "2022-10-18T02:57:54.831Z"
+}
+
+===============================================
+Default Suite
+Total tests run: 4, Passes: 4, Failures: 0, Skips: 0
+===============================================
+
+
+Process finished with exit code 0
